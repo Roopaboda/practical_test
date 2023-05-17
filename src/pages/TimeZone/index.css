@@ -1,0 +1,102 @@
+.timezone-select {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+  }
+  
+  .timezone-select label {
+	margin-right: 10px;
+  }
+  
+  .timezone-select select {
+	width: 100%;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: 1px solid #ccc;
+  }
+  
+  .swipe-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+  }
+  
+  .swipe-buttons button {
+	background: none;
+	border: none;
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+	text-decoration: underline;
+	padding: 0;
+  }
+  
+  .day-name {
+	color:red;
+  }
+  /* TimezonePage.css */
+
+/* TimezonePage.css */
+
+/* .hour {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  } */
+  
+  /* .hour input[type="checkbox"] {
+	margin-right: 5px;
+  } */
+  /* .timezone-page {
+	display: flex;
+	flex-wrap: wrap;
+  } */
+  .hour-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	margin-left: 100px;
+  }
+
+  .hour {
+	/* flex-basis: 12.5%; 8 cells per row */
+	display: inline-flex;
+	flex-wrap: wrap;
+	/* margin-left: 50px; */
+	width: 100px; 
+	/* margin: 10px; */
+	/* border: 1px solid red; */
+  }
+  
+  /* .hour input[type="checkbox"] {
+	margin-right: 5px;
+	display: flex;
+	flex-wrap: wrap;
+  } */
+  /* .timezone-page {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(8, auto);
+	gap: 10px;
+  } */
+
+  /* .day-name{
+	padding: 30px;
+	
+  } */
+  
+  /* input[type="checkbox" ] {
+    background-color: green;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+	
+} */
+  
+  
+  
